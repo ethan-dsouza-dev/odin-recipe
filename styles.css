@@ -24,6 +24,9 @@ a:link {
     color: rgb(128, 83, 0);
 }
 
+a:hover {
+    color: rgba(112, 80, 0, 0.812);
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
