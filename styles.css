@@ -15,11 +15,15 @@ p {
     
 }
 
-a:visited,
-a:link {
+a:visited {
     text-decoration: nono;
     color: rgb(128, 83, 0);
 }
+
+a:link {
+    color: rgb(128, 83, 0);
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
