@@ -15,7 +15,8 @@ p {
     
 }
 
-a:visited {
+a:visited,
+a:link {
     text-decoration: nono;
     color: rgb(128, 83, 0);
 }
