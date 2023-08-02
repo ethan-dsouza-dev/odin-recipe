@@ -1,0 +1,26 @@
+.title {
+    align-items: center;
+    color: rgb(96, 63, 1);
+    font-size: 40px;
+}
+
+.item {
+    font-size: 20px;
+    align-self: center;
+    color: rgb(96, 63, 1);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: nono;
+    color: rgb(128, 83, 0);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
