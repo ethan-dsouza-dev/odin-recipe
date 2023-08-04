@@ -1,18 +1,41 @@
-.title,
-h1,
-h2,
-h3 {
-    align-items: center;
-    color: rgb(96, 63, 1);
-    font-size: 40px;
+* {
+    box-sizing: border-box;
 }
 
-li,
+.title,
+.dish-name {
+    text-align: center;
+    color: rgb(96, 63, 1);
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.sub-heading {
+    font-size: 30px;
+    color: rgb(96, 63, 1);
+    margin: 20px;
+}
+
+h4.sub-heading {
+    font-size: 20px;
+}
+
+
 p {
     font-size: 20px;
-    align-self: center;
     color: rgb(96, 63, 1);
-    
+    margin: 20px;
+}
+
+li {
+    font-size: 20px;
+    padding-bottom: 8px;
+    color: rgb(96, 63, 1);
+}
+
+.recipe-list {
+    padding: 0 auto;
+    margin-left: 30px;
 }
 
 a:visited {
@@ -35,5 +58,19 @@ body {
 
 img {
     width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-ingredient-card {
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    width: 700px;
+}
+
+.ingredients-card {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 8px;
 }
 
